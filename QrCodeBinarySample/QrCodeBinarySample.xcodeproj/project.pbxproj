@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FA81B87202EBD8B00904291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA81B86202EBD8B00904291 /* AppDelegate.swift */; };
+		5FA81B89202EBD8B00904291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA81B88202EBD8B00904291 /* ViewController.swift */; };
+		5FA81B8C202EBD8B00904291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA81B8A202EBD8B00904291 /* Main.storyboard */; };
+		5FA81B8E202EBD8B00904291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA81B8D202EBD8B00904291 /* Assets.xcassets */; };
+		5FA81B91202EBD8B00904291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA81B8F202EBD8B00904291 /* LaunchScreen.storyboard */; };
+		5FA81B9C202EBD8C00904291 /* QrCodeBinarySampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA81B9B202EBD8C00904291 /* QrCodeBinarySampleTests.swift */; };
+		5FA81BA7202EBD8C00904291 /* QrCodeBinarySampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA81BA6202EBD8C00904291 /* QrCodeBinarySampleUITests.swift */; };
+		680A240708BEAFC571FD600C /* Pods_QrCodeBinarySampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179CD24E729A3BE7B9F0155E /* Pods_QrCodeBinarySampleTests.framework */; };
+		F1F9F58C34473539EF1FE65B /* Pods_QrCodeBinarySampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E18D18ED84F3C11AB1B53C /* Pods_QrCodeBinarySampleUITests.framework */; };
+		F3388733906E01FB3C90CA45 /* Pods_QrCodeBinarySample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B2D815E19C93462A9DD0F7 /* Pods_QrCodeBinarySample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FA81B98202EBD8C00904291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA81B7B202EBD8B00904291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FA81B82202EBD8B00904291;
+			remoteInfo = QrCodeBinarySample;
+		};
+		5FA81BA3202EBD8C00904291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA81B7B202EBD8B00904291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FA81B82202EBD8B00904291;
+			remoteInfo = QrCodeBinarySample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179CD24E729A3BE7B9F0155E /* Pods_QrCodeBinarySampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QrCodeBinarySampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D1CD4A97AE9EF74AE04DB5 /* Pods-QrCodeBinarySampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QrCodeBinarySampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QrCodeBinarySampleUITests/Pods-QrCodeBinarySampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31B2D815E19C93462A9DD0F7 /* Pods_QrCodeBinarySample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QrCodeBinarySample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3793EE2067DB2FC1F285B8AC /* Pods-QrCodeBinarySample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QrCodeBinarySample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QrCodeBinarySample/Pods-QrCodeBinarySample.debug.xcconfig"; sourceTree = "<group>"; };
+		5FA81B83202EBD8B00904291 /* QrCodeBinarySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QrCodeBinarySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA81B86202EBD8B00904291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FA81B88202EBD8B00904291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FA81B8B202EBD8B00904291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FA81B8D202EBD8B00904291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FA81B90202EBD8B00904291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FA81B92202EBD8B00904291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA81B97202EBD8C00904291 /* QrCodeBinarySampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QrCodeBinarySampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA81B9B202EBD8C00904291 /* QrCodeBinarySampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeBinarySampleTests.swift; sourceTree = "<group>"; };
+		5FA81B9D202EBD8C00904291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA81BA2202EBD8C00904291 /* QrCodeBinarySampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QrCodeBinarySampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA81BA6202EBD8C00904291 /* QrCodeBinarySampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeBinarySampleUITests.swift; sourceTree = "<group>"; };
+		5FA81BA8202EBD8C00904291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73D95B3F56C6CBCB1FBD95CA /* Pods-QrCodeBinarySample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QrCodeBinarySample.release.xcconfig"; path = "Pods/Target Support Files/Pods-QrCodeBinarySample/Pods-QrCodeBinarySample.release.xcconfig"; sourceTree = "<group>"; };
+		85E18D18ED84F3C11AB1B53C /* Pods_QrCodeBinarySampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QrCodeBinarySampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96919BF66D799AA5DA7B9B8B /* Pods-QrCodeBinarySampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QrCodeBinarySampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QrCodeBinarySampleUITests/Pods-QrCodeBinarySampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A53ED58CE4B805D205046309 /* Pods-QrCodeBinarySampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QrCodeBinarySampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QrCodeBinarySampleTests/Pods-QrCodeBinarySampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5D734416F1EDA4ECA8E4904 /* Pods-QrCodeBinarySampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QrCodeBinarySampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QrCodeBinarySampleTests/Pods-QrCodeBinarySampleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FA81B80202EBD8B00904291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3388733906E01FB3C90CA45 /* Pods_QrCodeBinarySample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA81B94202EBD8C00904291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680A240708BEAFC571FD600C /* Pods_QrCodeBinarySampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA81B9F202EBD8C00904291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F9F58C34473539EF1FE65B /* Pods_QrCodeBinarySampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09035185B89C61A65A7942F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31B2D815E19C93462A9DD0F7 /* Pods_QrCodeBinarySample.framework */,
+				179CD24E729A3BE7B9F0155E /* Pods_QrCodeBinarySampleTests.framework */,
+				85E18D18ED84F3C11AB1B53C /* Pods_QrCodeBinarySampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FA81B7A202EBD8B00904291 = {
+			isa = PBXGroup;
+			children = (
+				5FA81B85202EBD8B00904291 /* QrCodeBinarySample */,
+				5FA81B9A202EBD8C00904291 /* QrCodeBinarySampleTests */,
+				5FA81BA5202EBD8C00904291 /* QrCodeBinarySampleUITests */,
+				5FA81B84202EBD8B00904291 /* Products */,
+				A7B7390AE3FE372151549389 /* Pods */,
+				09035185B89C61A65A7942F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FA81B84202EBD8B00904291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA81B83202EBD8B00904291 /* QrCodeBinarySample.app */,
+				5FA81B97202EBD8C00904291 /* QrCodeBinarySampleTests.xctest */,
+				5FA81BA2202EBD8C00904291 /* QrCodeBinarySampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA81B85202EBD8B00904291 /* QrCodeBinarySample */ = {
+			isa = PBXGroup;
+			children = (
+				5FA81B86202EBD8B00904291 /* AppDelegate.swift */,
+				5FA81B88202EBD8B00904291 /* ViewController.swift */,
+				5FA81B8A202EBD8B00904291 /* Main.storyboard */,
+				5FA81B8D202EBD8B00904291 /* Assets.xcassets */,
+				5FA81B8F202EBD8B00904291 /* LaunchScreen.storyboard */,
+				5FA81B92202EBD8B00904291 /* Info.plist */,
+			);
+			path = QrCodeBinarySample;
+			sourceTree = "<group>";
+		};
+		5FA81B9A202EBD8C00904291 /* QrCodeBinarySampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FA81B9B202EBD8C00904291 /* QrCodeBinarySampleTests.swift */,
+				5FA81B9D202EBD8C00904291 /* Info.plist */,
+			);
+			path = QrCodeBinarySampleTests;
+			sourceTree = "<group>";
+		};
+		5FA81BA5202EBD8C00904291 /* QrCodeBinarySampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FA81BA6202EBD8C00904291 /* QrCodeBinarySampleUITests.swift */,
+				5FA81BA8202EBD8C00904291 /* Info.plist */,
+			);
+			path = QrCodeBinarySampleUITests;
+			sourceTree = "<group>";
+		};
+		A7B7390AE3FE372151549389 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3793EE2067DB2FC1F285B8AC /* Pods-QrCodeBinarySample.debug.xcconfig */,
+				73D95B3F56C6CBCB1FBD95CA /* Pods-QrCodeBinarySample.release.xcconfig */,
+				A53ED58CE4B805D205046309 /* Pods-QrCodeBinarySampleTests.debug.xcconfig */,
+				A5D734416F1EDA4ECA8E4904 /* Pods-QrCodeBinarySampleTests.release.xcconfig */,
+				30D1CD4A97AE9EF74AE04DB5 /* Pods-QrCodeBinarySampleUITests.debug.xcconfig */,
+				96919BF66D799AA5DA7B9B8B /* Pods-QrCodeBinarySampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FA81B82202EBD8B00904291 /* QrCodeBinarySample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA81BAB202EBD8C00904291 /* Build configuration list for PBXNativeTarget "QrCodeBinarySample" */;
+			buildPhases = (
+				1D32ADEB45F2BA04F88D2ECC /* [CP] Check Pods Manifest.lock */,
+				5FA81B7F202EBD8B00904291 /* Sources */,
+				5FA81B80202EBD8B00904291 /* Frameworks */,
+				5FA81B81202EBD8B00904291 /* Resources */,
+				1FD8B6F2CDF615B2E87CB758 /* [CP] Embed Pods Frameworks */,
+				4DBF25135B04F07965DC9241 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QrCodeBinarySample;
+			productName = QrCodeBinarySample;
+			productReference = 5FA81B83202EBD8B00904291 /* QrCodeBinarySample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FA81B96202EBD8C00904291 /* QrCodeBinarySampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA81BAE202EBD8C00904291 /* Build configuration list for PBXNativeTarget "QrCodeBinarySampleTests" */;
+			buildPhases = (
+				B06F25182CFFDC8F631A49CA /* [CP] Check Pods Manifest.lock */,
+				5FA81B93202EBD8C00904291 /* Sources */,
+				5FA81B94202EBD8C00904291 /* Frameworks */,
+				5FA81B95202EBD8C00904291 /* Resources */,
+				ADAB2FB735E8B7CB161B5655 /* [CP] Embed Pods Frameworks */,
+				6A21D3DA5F756487A7A1E4C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FA81B99202EBD8C00904291 /* PBXTargetDependency */,
+			);
+			name = QrCodeBinarySampleTests;
+			productName = QrCodeBinarySampleTests;
+			productReference = 5FA81B97202EBD8C00904291 /* QrCodeBinarySampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FA81BA1202EBD8C00904291 /* QrCodeBinarySampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA81BB1202EBD8C00904291 /* Build configuration list for PBXNativeTarget "QrCodeBinarySampleUITests" */;
+			buildPhases = (
+				B1C94DC1013660AB1EF7BB46 /* [CP] Check Pods Manifest.lock */,
+				5FA81B9E202EBD8C00904291 /* Sources */,
+				5FA81B9F202EBD8C00904291 /* Frameworks */,
+				5FA81BA0202EBD8C00904291 /* Resources */,
+				0A0C219C7397316F80B45B92 /* [CP] Embed Pods Frameworks */,
+				CF910DA471F35F41C81629EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FA81BA4202EBD8C00904291 /* PBXTargetDependency */,
+			);
+			name = QrCodeBinarySampleUITests;
+			productName = QrCodeBinarySampleUITests;
+			productReference = 5FA81BA2202EBD8C00904291 /* QrCodeBinarySampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FA81B7B202EBD8B00904291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ryuta46;
+				TargetAttributes = {
+					5FA81B82202EBD8B00904291 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5FA81B96202EBD8C00904291 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FA81B82202EBD8B00904291;
+					};
+					5FA81BA1202EBD8C00904291 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FA81B82202EBD8B00904291;
+					};
+				};
+			};
+			buildConfigurationList = 5FA81B7E202EBD8B00904291 /* Build configuration list for PBXProject "QrCodeBinarySample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FA81B7A202EBD8B00904291;
+			productRefGroup = 5FA81B84202EBD8B00904291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FA81B82202EBD8B00904291 /* QrCodeBinarySample */,
+				5FA81B96202EBD8C00904291 /* QrCodeBinarySampleTests */,
+				5FA81BA1202EBD8C00904291 /* QrCodeBinarySampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FA81B81202EBD8B00904291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA81B91202EBD8B00904291 /* LaunchScreen.storyboard in Resources */,
+				5FA81B8E202EBD8B00904291 /* Assets.xcassets in Resources */,
+				5FA81B8C202EBD8B00904291 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA81B95202EBD8C00904291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA81BA0202EBD8C00904291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A0C219C7397316F80B45B92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeBinarySampleUITests/Pods-QrCodeBinarySampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D32ADEB45F2BA04F88D2ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1FD8B6F2CDF615B2E87CB758 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeBinarySample/Pods-QrCodeBinarySample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DBF25135B04F07965DC9241 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeBinarySample/Pods-QrCodeBinarySample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A21D3DA5F756487A7A1E4C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeBinarySampleTests/Pods-QrCodeBinarySampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADAB2FB735E8B7CB161B5655 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeBinarySampleTests/Pods-QrCodeBinarySampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B06F25182CFFDC8F631A49CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C94DC1013660AB1EF7BB46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF910DA471F35F41C81629EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeBinarySampleUITests/Pods-QrCodeBinarySampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FA81B7F202EBD8B00904291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA81B89202EBD8B00904291 /* ViewController.swift in Sources */,
+				5FA81B87202EBD8B00904291 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA81B93202EBD8C00904291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA81B9C202EBD8C00904291 /* QrCodeBinarySampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA81B9E202EBD8C00904291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA81BA7202EBD8C00904291 /* QrCodeBinarySampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FA81B99202EBD8C00904291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FA81B82202EBD8B00904291 /* QrCodeBinarySample */;
+			targetProxy = 5FA81B98202EBD8C00904291 /* PBXContainerItemProxy */;
+		};
+		5FA81BA4202EBD8C00904291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FA81B82202EBD8B00904291 /* QrCodeBinarySample */;
+			targetProxy = 5FA81BA3202EBD8C00904291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FA81B8A202EBD8B00904291 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA81B8B202EBD8B00904291 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FA81B8F202EBD8B00904291 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA81B90202EBD8B00904291 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FA81BA9202EBD8C00904291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FA81BAA202EBD8C00904291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FA81BAC202EBD8C00904291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3793EE2067DB2FC1F285B8AC /* Pods-QrCodeBinarySample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK945B6495;
+				INFOPLIST_FILE = QrCodeBinarySample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryuta46.QrCodeBinarySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FA81BAD202EBD8C00904291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D95B3F56C6CBCB1FBD95CA /* Pods-QrCodeBinarySample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK945B6495;
+				INFOPLIST_FILE = QrCodeBinarySample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryuta46.QrCodeBinarySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FA81BAF202EBD8C00904291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53ED58CE4B805D205046309 /* Pods-QrCodeBinarySampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK945B6495;
+				INFOPLIST_FILE = QrCodeBinarySampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryuta46.QrCodeBinarySampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QrCodeBinarySample.app/QrCodeBinarySample";
+			};
+			name = Debug;
+		};
+		5FA81BB0202EBD8C00904291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D734416F1EDA4ECA8E4904 /* Pods-QrCodeBinarySampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK945B6495;
+				INFOPLIST_FILE = QrCodeBinarySampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryuta46.QrCodeBinarySampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QrCodeBinarySample.app/QrCodeBinarySample";
+			};
+			name = Release;
+		};
+		5FA81BB2202EBD8C00904291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D1CD4A97AE9EF74AE04DB5 /* Pods-QrCodeBinarySampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK945B6495;
+				INFOPLIST_FILE = QrCodeBinarySampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryuta46.QrCodeBinarySampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QrCodeBinarySample;
+			};
+			name = Debug;
+		};
+		5FA81BB3202EBD8C00904291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96919BF66D799AA5DA7B9B8B /* Pods-QrCodeBinarySampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK945B6495;
+				INFOPLIST_FILE = QrCodeBinarySampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryuta46.QrCodeBinarySampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QrCodeBinarySample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FA81B7E202EBD8B00904291 /* Build configuration list for PBXProject "QrCodeBinarySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA81BA9202EBD8C00904291 /* Debug */,
+				5FA81BAA202EBD8C00904291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA81BAB202EBD8C00904291 /* Build configuration list for PBXNativeTarget "QrCodeBinarySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA81BAC202EBD8C00904291 /* Debug */,
+				5FA81BAD202EBD8C00904291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA81BAE202EBD8C00904291 /* Build configuration list for PBXNativeTarget "QrCodeBinarySampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA81BAF202EBD8C00904291 /* Debug */,
+				5FA81BB0202EBD8C00904291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA81BB1202EBD8C00904291 /* Build configuration list for PBXNativeTarget "QrCodeBinarySampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA81BB2202EBD8C00904291 /* Debug */,
+				5FA81BB3202EBD8C00904291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FA81B7B202EBD8B00904291 /* Project object */;
+}
