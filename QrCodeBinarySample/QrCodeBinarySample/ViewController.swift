@@ -52,10 +52,8 @@ class ViewController: UIViewController {
         zxcapture.delegate = self
         zxcapture.camera = zxcapture.back()
 
-        //let captureView = UIViewController()
         zxcapture.layer.frame = preview.bounds
         preview.layer.addSublayer(zxcapture.layer)
-
 
         zxcapture.start()
         capturing = true
